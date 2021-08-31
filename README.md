@@ -1,13 +1,16 @@
-What is chmod command?
+# chmod command
+
 The chmod command is used to change the permissions of a file or directory. To use it, you specify the desired permission settings and the file or files that you wish to modify.
 
-What are Permissions?
+# What are Permissions?
+
 There are three types of permissions-
 • r: Read permissions. The file can be opened, and its content viewed.
 • w: Write permissions. The file can be edited, modified, and deleted.
 • x: Execute permissions. If the file is a script or a program, it can be run (executed).
 
-How it Works?
+# How it Works?
+
 Syntax-
 chmod [reference][operator][mode] file...
 
@@ -48,7 +51,8 @@ rw- rw- rw- = 110 110 110 or 666
 rwx --- --- = 111 000 000 or 700
 and so on...
 
-What is cat command?
+# cat command
+
 Cat(concatenate) command is very frequently used in Linux. It reads data from the file and gives their content as output. It helps us to create, view, concatenate files.
 SYNTAX-
 cat [OPTIONS][file_names]
@@ -56,21 +60,26 @@ cat [OPTIONS][file_names]
 OPTIONS: All different options.
 FILE_NAMES: Zero or more file names.
 
-Creating a New File-
+# Creating a New File-
+
 $ cat > file1.txt
 Display File Contents-
 The most basic and common usage of cat command is to display contents of a file.
 					$ cat file1
-Redirect Contents of a File:
+
+# Redirect Contents of a File:
+
 Instead of displaying the output to the stdout, you can redirect it to a file.
 $ cat file1.txt > file2.txt
 Use  (>>) to append to a file.
 				  $ cat file1.txt >> file2.txt
-Concatenating files-
+
+# Concatenating files-
+
 It is also used to concatenates 2 files
 \$ cat file1.txt file2.txt
 
-What is echo command?
+# echo command
 
 echo command in linux is used to display line of text/string that are passed as an argument . This is a built in command that is mostly used in shell scripts and batch files to output status text to the screen or a file.
 Syntax :
