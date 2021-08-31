@@ -60,26 +60,26 @@ cat [OPTIONS][file_names]
 OPTIONS: All different options.
 FILE_NAMES: Zero or more file names.
 
-# Creating a New File-
+Creating a New File-
 
 $ cat > file1.txt
 Display File Contents-
 The most basic and common usage of cat command is to display contents of a file.
 					$ cat file1
 
-# Redirect Contents of a File:
+Redirect Contents of a File:
 
 Instead of displaying the output to the stdout, you can redirect it to a file.
 $ cat file1.txt > file2.txt
 Use  (>>) to append to a file.
 				  $ cat file1.txt >> file2.txt
 
-# Concatenating files-
+Concatenating files-
 
 It is also used to concatenates 2 files
 \$ cat file1.txt file2.txt
 
-# echo command
+echo command
 
 echo command in linux is used to display line of text/string that are passed as an argument . This is a built in command that is mostly used in shell scripts and batch files to output status text to the screen or a file.
 Syntax :
