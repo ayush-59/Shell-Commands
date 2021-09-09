@@ -79,24 +79,3 @@ Use  (>>) to append to a file.
 It is also used to concatenates 2 files
 \$ cat file1.txt file2.txt
 
-# echo command
-
-echo command in linux is used to display line of text/string that are passed as an argument . This is a built in command that is mostly used in shell scripts and batch files to output status text to the screen or a file.
-Syntax :
-echo [option][string]
-
-Options of echo command
-
-NOTE :- -e here enables the interpretation of backslash escapes
-
-1. \b : it removes all the spaces in between the text
-   echo -e "Hello \bWorld"
-
-2. \c : suppress trailing new line with backspace interpretor ‘-e‘ to continue without emitting new line.
-3. \n : this option creates new line from where it is used.
-4. \t : this option is used to create horizontal tab spaces.
-5. \r : carriage return with backspace interpretor ‘-e‘ to have specified carriage return in output.
-6. \v : this option is used to create vertical tab spaces.
-7. \a : alert return with backspace interpretor ‘-e‘ to have sound alert.
-8. echo \* : this command will print all files/folders, similar to ls command .
-9. -n : this option is used to omit echoing trailing newline .
