@@ -51,6 +51,17 @@ rw- rw- rw- = 110 110 110 or 666
 rwx --- --- = 111 000 000 or 700
 and so on...
 
+# How to use-
+1. Download the code in your linux system.
+2. Install the libbsd library using command.
+		sudo apt-get install libbsd0 libbsd-dev
+3. Compile your code.
+		gcc myChmod.c -lbsd -o myChmod
+4. Store the compiled file in /bin folder.
+5. Your command is ready to use.
+
+
+
 # cat command
 
 Cat(concatenate) command is very frequently used in Linux. It reads data from the file and gives their content as output. It helps us to create, view, concatenate files.
@@ -79,3 +90,11 @@ Use  (>>) to append to a file.
 It is also used to concatenates 2 files
 \$ cat file1.txt file2.txt
 
+# How to use-
+1. Download the code in your linux system.
+2. Compile your code.
+		gcc myCat.c -o myCat
+3. Store the compiled file in /bin folder.
+4. Your command is ready to use.
+5. Use your command like 
+		myCat file1.txt ">" file2.txt
